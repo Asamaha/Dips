@@ -1,0 +1,32 @@
+{
+  "name": "roomsurf",
+  "version": "1.0.0",
+  "description": "Web application with variety of customizable scheduling",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asamaha/RoomSurf.git"
+  },
+  "author": "Adam Samaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asamaha/RoomSurf/issues"
+  },
+  "homepage": "https://github.com/Asamaha/RoomSurf#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "jwt-simple": "^0.4.0",
+    "moment": "^2.11.0",
+    "mongoose": "^4.3.4",
+    "bower": "^1.3.2"
+  }
+}
+
