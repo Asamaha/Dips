@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-1.[Usage](#Usage)
-1.[Requirements](#Requirements)
-1.[Installing Dependencies](#Installing Dependencies)
-1.[Development](#Development)
+1. [Usage](#Usage)
+1. [Requirements](#Requirements)
+1. [Installing Dependencies](#Installing Dependencies)
+1. [Development](#Development)
 
 ## Usage
 
@@ -13,12 +13,12 @@
 
 ## Requirements
 
-	* Angular
-	* Node
-	* Express
-	* Mongoose
-	* Mongodb
-	* Bootstrap
+	. Angular
+	. Node
+	. Express
+	. Mongoose
+	. Mongodb
+	. Bootstrap
 
 ## Development
 
@@ -27,8 +27,8 @@
 From within the root directory:
 
 ```sh
-npm install
-bower install
+  * npm install
+  * bower install
 ```
 
 ### Deployment
