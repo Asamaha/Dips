@@ -13,12 +13,12 @@
 
 ## Requirements
 
-	- Angular
-	- Node
-	- Express
-	- Mongoose
-	- Mongodb
-	- Bootstrap
+- Angular
+- Node
+- Express
+- Mongoose
+- Mongodb
+- Bootstrap
 
 ## Development
 
@@ -27,8 +27,8 @@
 From within the root directory:
 
 ```sh
-  npm install
-  bower install
+npm install
+bower install
 ```
 ##### To run the Server
 
