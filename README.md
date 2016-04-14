@@ -1,4 +1,5 @@
 # [RoomSurf]()
+Customizable scheduling web application .
 
 ## Table of Contents
 
