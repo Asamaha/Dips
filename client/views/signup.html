@@ -1,0 +1,48 @@
+<!-- navbar -->
+<!-- <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">-->
+<div id="nav-container">
+    <div class="container">
+        <img id="logo-image" src="./img/roomsurf.png">
+    </div>
+</div>
+<div class="row" "text-center">
+    <div class="col-lg-4 col-lg-offset-4  col-xm-12">
+        <div class="nav nav-list">
+            <div class="col-lg-4 col-lg-offset-4  col-sm-12 col-xs-12  " id="bannerText">
+                <h1>Welcome</h1>
+                <img id="logo-orange-image" src="./css/roomsurf1.jpg" alt="Dibs Logo">
+            </div>
+            <div class="sideBar">
+                <h3>Signup/Login</h3>
+                <div id='signup'>
+                    <form name='signinForm'>
+                        <div class="input-group margin-bottom-sm input-padding">
+                            <span class="input-group-addon"><i class=""></i></span>
+                            <input class="form-control" ng-model="user.username" type="text" placeholder="User name" required="required">
+                        </div>
+                        <div class="input-group margin-bottom-sm input-padding">
+                            <span class="input-group-addon"><i class=""></i></span>
+                            <input class="form-control" ng-model="user.email" type="text" placeholder="Email address" required>
+                        </div>
+                        <div class="input-group input-padding">
+                            <span class="input-group-addon"><i class=""></i></span>
+                            <input class="form-control" ng-model="user.password" type="password" placeholder="Password" required>
+                        </div>
+                        <div class="tosandSubmit">
+                            <input type="checkbox" id="pyxl6750" name="tos_agree" />
+                            <label for="pyxl6750"><span id="terms-padding">Remember me <a href="/terms" target="_blank"></a></span></label>
+                            <button class="submit-btn" ng-click="signUp()">Sign up!</button>
+                            <button class="submit-btn" ng-click="loginPage()">Already a member? Login Here!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="navbar navbar-fixed-bottom" role="footer" style="background-color: #f7f7f9">
+    <div class="container">
+        <p id="copyright-text">© 2016 RoomSurf/Adam Samaha</p>
+    </div>
+</div>
