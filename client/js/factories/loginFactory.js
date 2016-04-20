@@ -10,5 +10,8 @@ angular.module('userloginFactory', [])
       return val;
     });
   };
-
+return {
+    userLoginIn : userLoginIn,
+    // validToken: authenticationChecker 
+  };
 });
