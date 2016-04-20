@@ -10,5 +10,12 @@ angular.module('eventsInfoFactory', [])
       return responseObj;
     });
   };
+  //retrieves events
+  var getData = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/events/events'
+    });
+  };
 
 });
