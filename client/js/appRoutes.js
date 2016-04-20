@@ -18,4 +18,31 @@ angular.module('roomsurf', ['ngAnimate', 'ui.bootstrap','ui.router','eventsInfo'
         },
         data : { authenticate: false }
       })
-});
+      .state('dashboardPage', {
+        url : '/dashboard',
+        views: {
+          'indexPage' : {
+            templateUrl : 'views/dashboard.html',
+            controller : 'eventsController'
+          }
+        },
+        data : { authenticate: true }
+      })
+      .state('dashboardPage.events', {
+        url : '/events',
+        templateUrl : 'views/eventListEmbedded.html',
+        controller : 'eventsController',
+        data : { authenticate: true }
+      })
+      .state('loginupPage', {
+        url : '/login', 
+        views: {
+          'indexPage' : {
+            templateUrl : 'views/login.html',
+            controller : 'userLogin'
+          }         
+        },
+        data : { authenticate: false }
+      })
+    })
+  
