@@ -7,5 +7,18 @@ angular.module('userFactory', [])
       data: { userData: userData }
       //using object so that data is organized and 
       //we don't have to access every value we want on the server side
-    
+    })
+    .then(function(token) {
+      return token;
+    });
+  };
+
+  var authenticationChecker = function() {
+    return !!$window.localStorage.getItem('dibsToken');
+  };
+
+  return {
+    signUpData : userSignIn,
+    validToken: authenticationChecker 
+  };
 });
