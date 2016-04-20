@@ -1,6 +1,7 @@
 var eventModel = require('./eventModel.js');
 var Promise = require('bluebird');
 Promise.promisifyAll(require('mongoose'));
+
 module.exports = {
   postEvent: function(req,res) {
     //checks if event already exists
@@ -16,5 +17,13 @@ module.exports = {
         res.json({ result: true });
       }
     });
-    }
+  },
+
+  getEvent: function(req,res) {
+    eventModel.find({'eventDate' : { $gte : new Date()} })
+      .sort({eventDate: 1})
+      .then(function(booked) {
+        return res.json(booked);
+      });
+  }
 };
