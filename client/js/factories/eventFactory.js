@@ -10,6 +10,7 @@ angular.module('eventsInfoFactory', [])
       return responseObj;
     });
   };
+
   //retrieves events
   var getData = function() {
     return $http({
@@ -18,4 +19,26 @@ angular.module('eventsInfoFactory', [])
     });
   };
 
+  var formatData = function(events) {
+    var eventsCollection = events.data,
+      eventDates,
+      formattedDate,
+      eventTimes;
+
+    eventsCollection.forEach(function(event) {
+      eventDates = event.eventDate;
+      formattedDate = moment(eventDates).format("dddd, MMMM Do YYYY");
+      formattedTime = moment(eventDates).format('h:mmA');
+      event.eventDate = formattedDate;
+      event.eventTime = formattedTime;
+    });
+
+    return eventsCollection;
+  };
+
+  return {
+    eventData : eventData,
+    getData : getData,
+    formatData : formatData
+  };
 });
