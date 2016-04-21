@@ -1,4 +1,4 @@
-# [RoomSurf]()
+# [RoomSurf](https://roomsurf.herokuapp.com/#/signup)
 Customizable scheduling web application .
 
 ## Table of Contents
@@ -10,7 +10,7 @@ Customizable scheduling web application .
 
 ## Usage
 
-> [RoomSurf]() is a web application will allow users to configure a wide variety of customizable scheduling to reserve a room within their house for a special occasion and notify all roommates.
+> [RoomSurf](https://roomsurf.herokuapp.com/#/signup) is a web application will allow users to configure a wide variety of customizable scheduling to reserve a room within their house for a special occasion and notify all roommates.
 
 ## Requirements
 

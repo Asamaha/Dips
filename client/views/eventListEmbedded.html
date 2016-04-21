@@ -5,7 +5,7 @@
 <div ng-controller="eventsController" class="panel panel-default" id="events-sidebar">
     <div id="event-wrapper">
         <div ng-repeat='event in bookedEvents track by $index'>
-          <!-- <div ng-hide= "highlightedEvents()" class="add-oppacity"></div> -->
+            <!-- <div ng-hide= "highlightedEvents()" class="add-oppacity"></div> -->
             <!-- <div ng-class = "{ add-oppacity: flag }" class = 'panel panel-default event-block'> -->
             <div ng-class="{'add-oppacity' : highlightEvents(event) }" class="panel panel-default event-block">
                 <h5>Room Name:<i> {{event.roomName}}</i></h5>
