@@ -13,7 +13,7 @@ angular.module('userInfo', [])
       } else if($scope.user.password === '') {
         aler("Must Enter Password");
       } else {
-        $state.go('dashboardPage');	
+        $state.go('dashboardPage'); 
         SignUpFactory.signUpData($scope.user)
           .then(function(token) {
             $window.localStorage
