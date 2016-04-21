@@ -15,7 +15,7 @@ var server = require('http').createServer(app);
 var port = process.env.PORT || 3000;
 
 //set dirname to client folder to serve static assets (index.html)s
-app.use('/', express.static(__dirname + '/../client'));
+app.use('/', express.static('static'));
 
 
 app.listen(port, function() {
