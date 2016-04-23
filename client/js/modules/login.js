@@ -6,9 +6,9 @@ angular.module('loginInfo', [])
 
     $scope.login = function() {
       if($scope.loginUser.username === '') {
-        $scope.loginUser.username = 'Must Enter Username';
+        $scope.loginUser.username = '';
       } else if($scope.loginUser.password === '') {
-        alert("Must Enter Password");
+         $scope.loginUser.password = '';
       } else {
         LoginFactory.userLoginIn($scope.loginUser)
           .then(function(finalResult) {
@@ -20,4 +20,4 @@ angular.module('loginInfo', [])
           });
       }
     };
-})
+});
