@@ -12,8 +12,8 @@ mongoose.connect('mongodb://nodetojoy:nodetojoy@ds037165.mongolab.com:37165/node
 var server = require('http').createServer(app);
 
 //set port variable to deployed port or 3000 for local host
-var port = process.env.PORT || 3000;
-
+var port = process.env.PORT || 3001;
+require('./config/routeconfig.js')(app, express);
 //set dirname to client folder to serve static assets (index.html)s
 app.use('/', express.static(__dirname + '/../client'));
 
