@@ -3,10 +3,13 @@ body {
     height: 100%;
 }
 
-h3 {
+
+
+h1,h2,h3,h4,h5,h6 {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-color:black;
 }
 
 #h3-wrapper {
@@ -30,7 +33,7 @@ h3 {
 }
 
 #nav-container {
-    background-color:#5DC1DC ;
+    background-color:transparent; 
     height: 75px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,14 +68,15 @@ h3 {
 }
 
 #logout-btn {
-    width: 100px;
+   /* width: 100px;*/
     height: 30px;
     display: inline-block;
     float: right;
-    margin-top: 10px;
-    background: #FF4A00;
+    margin: 20px 0px 0px 20px;
+    background: #10BF46;
     border-radius: 3px;
     border: none;
+    float:right;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -85,12 +89,13 @@ h3 {
 
 .sideBar {
     background-color: #f7f7f9;
-    border: 1px solid #DADFE2;
+    border: 1px solid black;
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 20px;
-    margin: 100px 0px 0px 10px;
+    padding-top: 20px;
+    margin: 70px 0px 0px 10px;
 }
 
 #events-sidebar {
@@ -98,8 +103,8 @@ h3 {
     border: 1px solid #DADFE2;
     border-color: black;
     padding: 20px;
-    margin-top: 20px;
-    height: 410px;
+    margin-top: 60px;
+    height: 500px;
 }
 
 #event-wrapper {
@@ -200,5 +205,43 @@ h3 {
 }
 
 .add-oppacity {
-    background-color: #ffe4b2 !important;
+    background-color: #D43303!important;
+}
+
+ul.social-buttons {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+body {
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/main.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
