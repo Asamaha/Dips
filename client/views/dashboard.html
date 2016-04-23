@@ -1,17 +1,20 @@
 <!-- navbar -->
+
 <div id="nav-container">
     <div class="container">
         <button id="logout-btn" type="submit" ng-click="signout()">Logout</button>
-        <img id="logo-image" src="./img/roomsurf.png" alt="Dibs Logo">
+        <a href='#dashboard'><img id="logo-image" style="border:3px solid black;float:left; " src="./img/logo.jpg "></a>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-5">
+
             <div class="nav nav-list">
+              <h3>Create Reservation</h3>
                 <div class="sideBar">
                     <!-- Angular datePicker -->
-                    <h3>Create Reservation</h3>
+                    
                     <div class="input-group">
                         <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="eve.eventDate" is-open="status.opened" min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" />
                         <span class="input-group-btn">
@@ -53,9 +56,25 @@
         </div>
     </div>
 </div>
-<!-- footer -->
-<div class="navbar navbar-fixed-bottom" role="footer" style="background-color: #f7f7f9">
-    <div class="container">
-        <p id="copyright-text">© 2016 RoomSurf/Adam Samaha</p>
-    </div>
-</div>
+<style>
+    
+    body {
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/s.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+    #nav-container {
+    background-color:#3B517B; 
+    height: 75px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+</style>
