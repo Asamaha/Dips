@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .sideBar {
     background-color: #f7f7f9;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #events-sidebar {
     background-color: #f7f7f9;
-    border: 1px solid #DADFE2;
+    border: 3px solid #DADFE2;
     border-color: black;
     padding: 20px;
     margin-top: 60px;
@@ -178,7 +178,10 @@ h1,h2,h3,h4,h5,h6 {
 #terms-padding {
     padding-left: 10px;
 }
-
+#butt{
+    color:white;
+    background:#000000;
+}
 #alert-roommates-padding {
     padding-left: 10px;
 }
@@ -213,6 +216,19 @@ ul.social-buttons {
     text-align: center;
 
 }
+.room{
+    color:#fff;
+    float:left;
+}
+.creat{
+  margin-top: 60px;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+
+}    
 
 ul.social-buttons li a {
     display: block;
@@ -237,7 +253,7 @@ ul.social-buttons li a:active {
 body {
     text-align: center;
     background-attachment: scroll;
-    background-image: url(../img/main.jpg);
+    background-image: url(../assets/main.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
