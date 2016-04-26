@@ -1,8 +1,14 @@
 body {
-    background-color: #FFF;
-    height: 100%;
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../assets/main.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -250,14 +256,4 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
 }
-body {
-    text-align: center;
-    background-attachment: scroll;
-    background-image: url(../assets/main.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
