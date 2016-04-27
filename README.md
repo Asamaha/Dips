@@ -3,10 +3,25 @@ Customizable scheduling web application .
 
 ## Table of Contents
 
+1. [Developer](#developer)
 1. [Usage](#usage)
 1. [Requirements](#requirements)
 1. [Installing Dependencies](#installing Dependencies)
 1. [Development](#development)
+1. [Deployment](#deployment)
+
+## Developer :
+
+| Name        | Github           | LinkedIn           |
+| ------------- |:-------------:| -------------:|
+| **Adam Samaha**      | https://github.com/Asamaha | https://www.linkedin.com/in/adamsamaha |
+
+
+## Team
+
+1.Product Owner: Robert Cardiff
+2.Scrum Master: Tim Steele
+
 
 ## Usage
 
@@ -37,4 +52,4 @@ bower install
 
 ### Deployment
 
-This project is deployed on Heroku.
+This project is deployed on [Heroku](https://www.heroku.com/).
