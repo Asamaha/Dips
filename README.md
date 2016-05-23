@@ -19,8 +19,8 @@ Customizable scheduling web application .
 
 ## Team
 
-1.Product Owner: Robert Cardiff
-2.Scrum Master: Tim Steele
+1.Product Owner: Eihab Shadeed
+2.Scrum Master: Dima Kulyk
 
 
 ## Usage
