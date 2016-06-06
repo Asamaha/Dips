@@ -43,8 +43,8 @@ Customizable scheduling web application .
 From within the root directory:
 
 ```sh
- npm install
- bower install
+npm install
+bower install
 ```
 ##### To run the Server
 
