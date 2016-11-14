@@ -1,4 +1,4 @@
-# [RoomSurf](https://roomsurf.herokuapp.com/#/signup)
+# Dips
 Customizable scheduling web application .
 
 ## Table of Contents
@@ -25,7 +25,7 @@ Customizable scheduling web application .
 
 ## Usage
 
-> [RoomSurf](https://roomsurf.herokuapp.com/#/signup) is a web application will allow users to configure a wide variety of customizable scheduling to reserve a room within their house for a special occasion and notify all roommates.
+> Dips is a web application will allow users to configure a wide variety of customizable scheduling to reserve a room within their house for a special occasion and notify all roommates.
 
 ## Requirements
 
