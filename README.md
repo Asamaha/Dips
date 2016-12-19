@@ -1,5 +1,5 @@
-# Dips
-Customizable scheduling web application .
+# iHire
+Customizable job search web application .
 
 ## Table of Contents
 
